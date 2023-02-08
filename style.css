@@ -1,0 +1,44 @@
+h1 {
+  background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#chat-area {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#chat-form {
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 15%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4385f5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
